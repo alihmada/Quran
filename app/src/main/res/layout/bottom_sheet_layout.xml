@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sheet_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Select Translation"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/translation_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/english_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="English"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/french_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="French"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/hindi_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/turkish_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turkish"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/urdu_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urdu"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Select Qari"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/audio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/abdul_basit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdul Basit"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/muhammad_ayyoob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Ayyoob"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/nasser_alqatami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nasser Alqatami"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/yasser_addussary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yasser AlDussary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save_settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/curved_button"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
